@@ -16,7 +16,7 @@ def generadorDeWallet():
     # Clave pública generada de la clave privada
     clavePublica = sha256(bytes(clavePrivada, encoding='utf-8')).hexdigest()
     # Dirección de la wallet producto de un segundo digest
-    direccion = sha256(bytes(clavePublica, encoding='utf-8')).hexdigest()
+    direccion = sha256(bytes(clavePublica, encoding='utf-8')).hexdigest() # Usar RIPEMD160 para bitcoin
     return clavePrivada, clavePublica, direccion
 
 # Namedtuple con estructura sencilla de wallet
