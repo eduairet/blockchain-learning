@@ -4,7 +4,7 @@
 Contrato inteligente para el juego «Piedra, papel o tijera».
 Gana o pierde faucet ether jugando.
 '''
-
+# Variables de estado
 jugador: public(address)
 juegoComienzo: public(uint256)
 resultado: public(uint256)
