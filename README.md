@@ -1,5 +1,5 @@
 # Blockchain
 
-Ejercicios para comprender y aprender de Blockchain por medio de ejercicios prácticos
+Exercises to understand and learn Blockchain through practical exercises.
 
 Eduardo Aire
